@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+
+body{font-family: lato;}
+
+
+nav{font-size: 1.6rem;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
+position:fixed;
+width: 100%;
+z-index: 100;
+font-family: lato;
+padding-left: 2rem; }
+
+
+li{list-style: none;
+cursor: pointer;}
+
+
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 16rem;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: gray;
+color: black;}
+
+
+
+#search{margin-right: 2rem;
+font-size: 2rem;
+cursor: pointer;}
+
+
+
+
+.heading{font-size: 3rem;
+margin: 1rem 0;
+}
+
+
+.box{padding: 6.4rem 1.6rem;
+font-family: lato;}
+
+.heading2{font-size: 1.5rem;
+    font-style: italic;
+    margin: 1.5rem 0;
+    color: gray;
+}
+
+.text{font-size: 1.5rem;
+margin: 1.8rem 15rem;
+text-align: start;}
+
+
+
+.bandbox{gap: 10rem;
+padding-top: 5rem;}
+
+.bandimg{width: 20rem;
+height: 20rem;}

@@ -7,7 +7,9 @@ import { faInstagram, faLinkedin, faPinterest, faSnapchat, faSquareFacebook, faT
 export default function Footer() {
   return (
     <div>
+      <div id='map'>
       <img src={FooterImage} alt="Map" />
+      </div>
       <div className='iconsBox'>
       <h1 className='icons'><FontAwesomeIcon icon={faSquareFacebook} /></h1>
       <h1 className='icons'><FontAwesomeIcon icon={faInstagram} /></h1>

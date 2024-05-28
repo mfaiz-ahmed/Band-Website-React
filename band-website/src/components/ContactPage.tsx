@@ -6,7 +6,7 @@ export default function contact() {
   return (
     <div className='text-center box'>
       <h1 className='heading'>THE BAND</h1>
-      <h2 className='heading2'>We love music</h2>
+      <h2 className='heading2'>We love music!</h2>
       <div className='contactBox'>
         <div >
             <p><FontAwesomeIcon icon={faLocationDot} /> Chicago, US</p>

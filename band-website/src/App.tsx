@@ -13,12 +13,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Carousel/>
-      <BandInfo/>
-      <TourDates/>
-      <Contact/>
-      <Footer/>
+    <Navbar/>
+    <Carousel/>
+    <BandInfo/>
+    <TourDates/>
+    <Contact/>
+    <Footer/>
     </div>
   );
 }

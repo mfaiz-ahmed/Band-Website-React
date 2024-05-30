@@ -6,7 +6,7 @@ import { faCaretDown, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icon
 export default function Navbar() {
   return (
     <nav className='bg-black text-white d-flex justify-content-between align-items-center'>
-        <div className='d-flex gap-5 align-items-center'>
+        <div className='d-flex align-items-center'>
             <li>HOME</li>
             <li>BAND</li>
             <li>TOUR</li>

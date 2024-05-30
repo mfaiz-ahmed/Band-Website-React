@@ -15,16 +15,17 @@ nav{font-size: 1.6rem;
     box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
 position:fixed;
 width: 100%;
-z-index: 100;
-padding-left: 2rem;}
+z-index: 100;}
 
 
 
 
 li{list-style: none;
+  padding: 1.2rem 2.4rem;
     cursor: pointer;}
     
-    li:hover{background-color: gray;}
+    li:hover{background-color: gray;
+    color: black;}
 
 
 .dropbtn {

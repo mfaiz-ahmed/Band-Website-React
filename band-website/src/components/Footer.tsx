@@ -8,7 +8,9 @@ export default function Footer() {
   return (
     <div>
       <div id='map'>
-      <img src={FooterImage} alt="Map" />
+      <img style={{
+        width:'100vw'
+      }} src={FooterImage} alt="Map" />
       </div>
       <div className='iconsBox'>
       <h1 className='icons'><FontAwesomeIcon icon={faSquareFacebook} /></h1>

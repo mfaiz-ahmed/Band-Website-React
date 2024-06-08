@@ -14,9 +14,9 @@ export default function Navbar() {
             <div className="dropdown">
   <button className="dropbtn">MORE <FontAwesomeIcon icon={faCaretDown} /></button>
   <div className="dropdown-content">
-    <a className='text-dark text-decoration-none' href="#">Merchandise</a>
-    <a className='text-dark text-decoration-none' href="#">Extras</a>
-    <a className='text-dark text-decoration-none' href="#">Media</a>
+    <a className='text-dark text-decoration-none' href="#">MERCHANDISE</a>
+    <a className='text-dark text-decoration-none' href="#">EXTRAS</a>
+    <a className='text-dark text-decoration-none' href="#">MEDIA</a>
   </div>
 </div>
         </div>

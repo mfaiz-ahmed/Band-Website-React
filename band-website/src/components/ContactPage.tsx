@@ -4,7 +4,7 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 
 export default function contact() {
   return (
-    <div className='text-center box'>
+    <div id='contact' className='text-center box'>
       <h1 className='heading'>CONTACT</h1>
       <h2 className='heading2'>We love music!</h2>
       <div className='contactBox'>

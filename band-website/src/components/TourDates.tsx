@@ -5,7 +5,7 @@ import Card3 from './Assets/Card-3.jpg';
 
 export default function TourDates() {
   return (
-    <div className='text-center bg-black bandbox'>
+    <div id='tour' className='text-center bg-black bandbox'>
       <h1 className='heading text-white'>TOUR DATES</h1>
       <h1 className='heading2'>Remember to book your tickets!</h1>
       <div className='datebox'>
@@ -20,7 +20,7 @@ export default function TourDates() {
         </div>
       </div>
                     {/* CARD STARTED  */}
-      <div className='cityCards'>
+      <div className='cityCards flex-wrap'>
       <div className="card" style={{width: '25rem'}}>
   <img src={Card1} className="card-img-top" alt="Card 1"/>
   <div className="card-body">
